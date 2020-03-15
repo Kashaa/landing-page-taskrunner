@@ -310,4 +310,68 @@ footer .footer-address a {
 footer .footer-content li:first-child a:hover {
   cursor: default;
 }
+
+/* MEDIA */
+@media (max-width: 767px) {
+  header .splash-welcome {
+    width: 100%;
+    text-align: center;
+  }
+  header .splash-welcome h1 {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  header .splash-welcome h3 {
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
+  .navbar {
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+  }
+  .navigation ul li {
+    margin-right: 12px;
+  }
+  .navigation ul li a {
+    font-size: 12px;
+  }
+  section .section-title {
+    font-size: 36px;
+  }
+  section .section-subtitle {
+    font-size: 14px;
+  }
+  .services .container .wrapper {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .services .wrapper .boxes {
+    margin-bottom: 48px;
+  }
+  .portfolio .photo-boxes {
+    -ms-flex: 50%;
+        flex: 50%;
+  }
+  footer {
+    font-size: 18px;
+    padding: 12px;
+  }
+  footer .footer-container {
+    -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    -ms-flex-align: center;
+        align-items: center;
+  }
+  footer ul {
+    width: 100%;
+  }
+  footer .footer-logos,
+  footer .footer-content {
+    margin: 0;
+  }
+}
 /*# sourceMappingURL=style.css.map */

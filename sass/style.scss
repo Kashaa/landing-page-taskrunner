@@ -310,3 +310,80 @@ footer {
         cursor: default;
     }
 }
+
+/* MEDIA */
+
+@media (max-width: 767px) {
+
+    header {
+        .splash-welcome {
+            width: 100%;
+            text-align: center;
+        }
+
+        .splash-welcome h1 {
+            font-size: 18px;
+            margin-bottom: 12px;
+        }
+
+        .splash-welcome h3 {
+            font-size: 28px;
+            margin-bottom: 24px;
+        }
+
+    }
+
+    .navbar {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navigation ul li {
+        margin-right: 12px;
+    }
+
+    .navigation ul li a {
+        font-size: 12px;
+    }
+
+    section .section-title {
+        font-size: 36px;
+    }
+
+    section .section-subtitle {
+        font-size: 14px;
+    }
+
+    .services .container .wrapper {
+        flex-direction: column;
+    }
+
+    .services .wrapper .boxes {
+        margin-bottom: 48px;
+    }
+
+    .portfolio .photo-boxes {
+        flex: 50%;
+    }
+
+    footer {
+        font-size: 18px;
+        padding: 12px;
+
+        .footer-container {
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+
+        ul {
+            width: 100%;
+        }
+
+        .footer-logos,
+        .footer-content {
+            margin: 0;
+        }
+    }
+
+}
